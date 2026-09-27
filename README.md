@@ -18,148 +18,115 @@
 
 <h3 align="center">One music library for your whole crew.<br>Straight from computer to computer: your music never touches a server.</h3>
 
-<p align="center">
-  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>⬇ Download Nadirect for Windows and macOS</strong></a>
-</p>
+<p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a></p>
 
 <p align="center">
-  <img src="assets/screens/library.png" alt="Your crew's library, sorted by genre, with a song's CDJ check and Look it up" width="100%">
+  <img src="assets/hero.svg" alt="Two decks: a song flies from one to the other" width="100%">
 </p>
 
----
-
-## Why DJs switch to Nadirect
-
-|  | |
-|---|---|
-| 🎧 **Your crew's crates, together** | Everyone adds their music, everyone sees it, sorted into the genres your crew actually plays. |
-| 🔒 **Nobody in the middle** | Songs go straight from one computer to another. They never touch a server, a cloud or us. |
-| 🎛️ **Ready for the decks** | Every song gets a CDJ check, and a problem WAV is fixed in one click, before the gig finds out for you. |
-
-## ✨ New: send a song to one person
+Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted by the genres you play. Songs go from computer to computer and never pass through a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
 
 <p align="center">
-  <img src="assets/screens/chat.png" alt="A private chat: five songs sent to one friend, seen ticks and the typing wave" width="100%">
+  <img src="assets/screens/desktop.png" alt="Nadirect on the desktop: Home, the Library, Chat, My Library and a profile" width="100%">
 </p>
 
-Not everything is for the whole group. Now a track can go to **one friend only**:
+## What you get
 
-- **Send to…** Right-click any songs, pick a friend, done. Send one or fifty: they arrive as one neat box, with **Download all**.
-- **Hear it first.** Your friend can press play and listen before downloading, straight from your computer.
-- **Covers and all.** It lands in their library with the artwork, ready to play.
-- **Ask for it.** Spot a track in a friend's crate? Ask, and they send it with one click.
+A library for your group. Everyone adds music into genres your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a genre download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
 
-## A chat that feels alive
+Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
 
-- **See who's online**, watch the little waveform while they're **typing**, and know they've **seen** it with two ticks.
-- Share songs your friends can play right there, plus photos, videos, replies and reactions.
-- A small chat window follows you around the app, so you never miss a request.
+Sending to one person. Right-click a song (or fifty), choose Send to, and only that person gets them. They can listen before downloading, and the covers come along.
 
-## Built for the booth
+A chat for the group and for each of you. You can see who's online, when someone's typing and when they've read your message. Share songs, photos and videos. If a friend spots something in your crate, they can ask for it right there.
 
-- **A CDJ check on every song.** WAVs are checked inside the file for what makes a CDJ refuse it: 32-bit float audio, the header behind error **E-8305**, sample rates CDJs can't play, surround. Every other format gets a clear answer too.
-- **One-click fix for WAVs.** A CDJ-ready copy with the same name, your original untouched.
-- **Everything at a glance.** Right-click any song for format, bitrate, size, length and whether it plays on every CDJ.
-- **Look it up.** Straight to YouTube, SoundCloud, Beatport, Spotify or Apple Music.
-- **Works with your software.** Downloads go into plain genre folders you can point Rekordbox, Serato or Traktor at.
+A profile with your crate. Show the list of songs in your library (the files stay with you), your top genres, your socials and a few numbers about your collection.
 
-## Show off your taste
+Folders you already use. Downloads go into plain genre folders, so Rekordbox, Serato and Traktor see them like any other folder. Nadirect shares your music from where it already is.
+
+## Privacy
+
+Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. Nadirect has a small server for friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
+
+## Install
+
+1. Download the latest version from [Releases](https://github.com/itay5731/Nadirect-releases/releases/latest).
+2. On Windows, run `Nadirect-Setup-x.y.z.exe`. If Windows asks about network access, choose Allow.
+3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked. If macOS won't open it the first time, see the FAQ below.
+4. Create a group, or paste the invite code a friend sent you.
+
+Nadirect updates itself: it tells you what's new and installs when you say so.
+
+## Coming to your phone
 
 <p align="center">
-  <img src="assets/screens/profile.png" alt="A profile: banner, socials, crate and library numbers" width="100%">
+  <img src="assets/screens/phone.png" alt="Nadirect on a phone: coming soon" width="100%">
 </p>
 
-- **Your profile:** a banner, your top genres, your socials and the track you're featuring.
-- **Your crate:** share your library's list with friends (never the files) and let them ask for what they like.
-- **Your numbers:** songs, minutes, formats, top artists and how much is CDJ-ready.
-
-## Your library, your rules
-
-- **Download only what you want.** New music shows up in one place: take it, skip it, or let a genre download by itself.
-- **Always there.** A song comes from anyone online who has it, and big files come from several friends at once.
-- **Easy on your connection.** You choose how much upload to share, and can pause any time.
-- **Your files stay put.** Nadirect shares your music from where it already is. Nothing is copied or moved.
-
-## Private by design
-
-- **Invite only.** Joining a group takes an invite code *and* an admin's approval.
-- **Your music never touches a server.** Songs, group chats, photos and videos go directly between members' computers, encrypted end to end.
-- **Only the two of you.** Private messages are sealed so nobody else can read them, not even Nadirect.
-- **Every file is checked.** Each piece of a song is verified against the original's fingerprint, and only real audio files are accepted.
-- **Signed updates.** Nadirect only installs updates that carry our signature, and asks you first.
-
-## Get started in a minute
-
-1. **[Download the latest version](https://github.com/itay5731/Nadirect-releases/releases/latest).**
-2. **Windows:** run `Nadirect-Setup-x.y.z.exe`. When Windows asks about the network, choose **Allow**.<br>
-   **macOS** (Apple Silicon and Intel): open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. The first time, right-click it in Applications and choose **Open**, then **Open** again. When it asks about incoming connections, choose **Allow**.
-3. **Create a group** for your crew, or paste an invite code a friend sent you.
-
-Updates arrive by themselves: Nadirect shows what's new and installs when you say so. Every version's notes are in **Settings → Updates → What's new**.
+Nadirect for iPhone and Android is on its way.
 
 ## FAQ
 
 <details>
-<summary><strong>Do my songs go through a server?</strong></summary>
+<summary>Do my songs go through a server?</summary>
 <br>
-Never. Songs, photos and group chats go straight between your crew's computers. Nadirect's server only helps with the small stuff that has to work while you're offline: your friends list, the list of songs in your crate, and messages waiting for a friend (sealed, so the server can't read them).
+No. They go from one member's computer to another's. The server only handles friend requests, crate lists and messages waiting for someone who's offline.
 </details>
 
 <details>
-<summary><strong>What if the friend who added a song is offline?</strong></summary>
+<summary>What if the person who added a song is offline?</summary>
 <br>
-In a group, you get it from anyone online who has it, not only the person who added it. A song sent to you alone comes from the sender's computer, so it downloads the next time you're both online. You'll see "Waiting for them to be online" until then.
+In a group, you get it from anyone online who has it. A song someone sent only to you comes from their computer, so it downloads the next time you're both online.
 </details>
 
 <details>
-<summary><strong>Does it work with Rekordbox, Serato and Traktor?</strong></summary>
+<summary>Does it work with Rekordbox, Serato or Traktor?</summary>
 <br>
-Yes. Downloads land in plain folders, one per genre, in your Music folder. Point your DJ software at them like any other folder.
+Yes. Downloads are ordinary files in genre folders, so point your DJ software at them.
 </details>
 
 <details>
-<summary><strong>Which formats can I share?</strong></summary>
+<summary>Which formats work?</summary>
 <br>
-MP3, WAV, AIFF, FLAC, M4A (AAC and ALAC), OGG and Opus. Every file is checked to be real audio before anyone gets it.
+MP3, WAV, AIFF, FLAC, M4A (AAC and ALAC), OGG and Opus.
 </details>
 
 <details>
-<summary><strong>What does "CDJ-ready" mean?</strong></summary>
+<summary>Will it slow my internet down?</summary>
 <br>
-That the file plays on Pioneer CDJs. WAVs are checked inside the file; MP3, AAC and AIFF play on every CDJ, FLAC and ALAC only on the CDJ-3000 and NXS2, and OGG and Opus not at all. A WAV that would fail can be fixed in one click.
+You decide how much upload to share (2 MB/s to start), how many people can download from you at once, and when. You can pause sharing any time.
 </details>
 
 <details>
-<summary><strong>Will it slow down my internet?</strong></summary>
+<summary>Can people outside my group see my music?</summary>
 <br>
-No. You choose how much upload to share (2 MB/s to start with), how many friends can download from you at once, and you can pause sharing any time, or share only during certain hours.
+No. Only members see the group's library. Your crate list is only shown if you turn it on, and to whoever you choose.
 </details>
 
 <details>
-<summary><strong>Can people outside my group see my music?</strong></summary>
+<summary>Is it safe to download songs from other people?</summary>
 <br>
-No. Your group's library is for its members only. Your crate (just the list of songs, never the files) is shown only if you turn it on, to your friends or to everyone you choose.
+Nadirect checks every file piece by piece against the original, lets through only real audio files, and never opens or runs anything it downloads. Still, only join groups and add friends you know, and download from people you trust.
 </details>
 
 <details>
-<summary><strong>macOS says Nadirect is damaged. What now?</strong></summary>
+<summary>macOS won't open Nadirect</summary>
 <br>
-The app isn't signed with an Apple developer account yet. Run this in Terminal, then open it again:
+Nadirect isn't signed with an Apple developer account yet, so macOS stops it the first time.
+
+If macOS says it can't check the app for malware, click Done, then open System Settings › Privacy & Security, scroll down and click Open Anyway. Confirm with your password.
+
+If it says the app is damaged, run this in Terminal and open it again:
 
 ```
 xattr -cr /Applications/Nadirect.app
 ```
 </details>
 
-## Share fairly
+## Sharing music
 
-Only share music you have the right to share: music you made, music whose licence allows sharing, or music the rights holder said you can share. Nadirect never sees or stores your music; every member is responsible for what they add. The full terms are in the app, under **Settings**.
+Only share music you're allowed to share: your own, music whose licence allows it, or music the owner said you can share. Nadirect never sees or stores your music, and each member is responsible for what they add. The full terms are in the app under Settings.
 
 ## License
 
-Nadirect is free to download and use. The app and its code are © Itay Nadir, all rights reserved; it isn't open source. Using Nadirect means agreeing to the terms in the app, under **Settings**.
-
----
-
-<p align="center"><strong>Nadirect</strong> · Beat to Beat. Peer to Peer.<br>
-<a href="https://github.com/itay5731/Nadirect-releases/releases/latest">Download now</a></p>
+Nadirect is free to download and use, but it isn't open source. © 2026 Itay Nadir, all rights reserved. See [LICENSE](LICENSE).
