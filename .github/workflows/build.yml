@@ -1,0 +1,129 @@
+name: Build a release
+
+# Builds Nadirect from the private code repository and uploads the installers
+# to a DRAFT release here. It runs in this public repository because public
+# repositories get GitHub Actions minutes free. The code is only fetched for
+# the build: it is never published, and these logs show build output only.
+#
+# Start it from the Actions tab (Run workflow) with the version tag, after the
+# tag is pushed to the code repository. Nothing reaches users until the draft
+# release is published by hand.
+#
+# Secrets (Settings → Secrets and variables → Actions):
+#   CODE_TOKEN            a fine-grained token with "Contents: read" on itay5731/Nadirect only
+#   NADIRECT_RELEASE_KEY  the release signing key (the same as in the code repository)
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'The version tag in the code repository, e.g. v0.4.5'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - os: windows-latest
+            dist: dist:win
+            app: dist/win-unpacked/Nadirect.exe
+          - os: macos-latest
+            dist: dist:mac
+            app: dist/mac-universal/Nadirect.app/Contents/MacOS/Nadirect
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Check the tag looks like a version
+        shell: bash
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "::error::'$TAG' is not a version tag like v0.4.5"; exit 1; }
+
+      - name: Fetch the code (private) at that tag
+        uses: actions/checkout@v5
+        with:
+          repository: itay5731/Nadirect
+          ref: ${{ inputs.tag }}
+          token: ${{ secrets.CODE_TOKEN }}
+          # the token isn't left behind in the checkout
+          persist-credentials: false
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run typecheck
+      - run: npm test
+
+      - name: Check the version matches the tag
+        shell: bash
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          v=$(node -p "require('./package.json').version")
+          if [ "v$v" != "$TAG" ]; then
+            echo "::error::package.json version v$v does not match tag $TAG"
+            exit 1
+          fi
+
+      # The notes in src/shared/release-notes.ts become the release's text, which
+      # installed apps show in the update popup. No notes for this version: stop.
+      - name: Write the release notes
+        shell: bash
+        env:
+          TAG: ${{ inputs.tag }}
+        run: node --experimental-strip-types scripts/release-notes.mts "$TAG" > release-notes.md
+
+      - name: Check the signing key is set
+        shell: bash
+        env:
+          NADIRECT_RELEASE_KEY: ${{ secrets.NADIRECT_RELEASE_KEY }}
+        run: |
+          [ -n "$NADIRECT_RELEASE_KEY" ] || { echo "::error::The NADIRECT_RELEASE_KEY secret is not set"; exit 1; }
+
+      - name: Check the release public key is built in
+        shell: bash
+        run: |
+          if ! grep -qE "RELEASE_PUBLIC_KEY = '[0-9a-f]{64}'" src/main/update/release-key.ts; then
+            echo "::error::src/main/update/release-key.ts has no release public key"
+            exit 1
+          fi
+
+      - run: npm run ${{ matrix.dist }}
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+
+      # The installed app must load its native modules from the package.
+      - run: ${{ matrix.app }} --selfcheck
+        shell: bash
+
+      - name: Sign installers with the Nadirect release key
+        shell: bash
+        env:
+          NADIRECT_RELEASE_KEY: ${{ secrets.NADIRECT_RELEASE_KEY }}
+        run: |
+          shopt -s nullglob
+          node scripts/release-key.mjs sign dist/*.exe dist/*.dmg dist/*.zip
+
+      - name: Upload to the draft release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag }}
+          target_commitish: main
+          name: Nadirect ${{ inputs.tag }}
+          body_path: release-notes.md
+          draft: true
+          fail_on_unmatched_files: false
+          files: |
+            dist/*.exe
+            dist/*.dmg
+            dist/*.zip
+            dist/*.sig
+            dist/*.blockmap
+            dist/latest*.yml
