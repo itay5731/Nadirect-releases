@@ -1,90 +1,84 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/nadirect-mark-white.svg">
-    <img src="assets/nadirect-mark.svg" alt="Nadirect" width="96">
-  </picture>
-</p>
-
-<h1 align="center">Nadirect</h1>
-
-<p align="center"><strong>Beat to Beat. Peer to Peer.</strong></p>
-
-<p align="center">
-  Made for DJs and music lovers who share their crates.<br>
-  One music library for you and your crew: computer to computer, no cloud, no server costs.
+  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest">
+    <img src="assets/banner.svg" alt="Nadirect: Beat to Beat. Peer to Peer." width="100%">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a>
+  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><img src="https://img.shields.io/github/v/release/itay5731/Nadirect-releases?label=latest&color=8b5cf6&style=for-the-badge" alt="Latest version"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20macOS-22d3ee?style=for-the-badge" alt="Windows and macOS">
+  <img src="https://img.shields.io/badge/free-f43f8e?style=for-the-badge" alt="Free">
+  <img src="https://img.shields.io/badge/no%20cloud-1a1240?style=for-the-badge" alt="No cloud">
+</p>
+
+<h3 align="center">One music library for your whole crew.<br>Straight from computer to computer. No uploads, no cloud, no subscription.</h3>
+
+<p align="center">
+  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>⬇ Download Nadirect for Windows and macOS</strong></a>
 </p>
 
 ---
 
-## What it does
+## Why DJs switch to Nadirect
 
-### Your crew's library, sorted by genre
+|  | |
+|---|---|
+| 🎧 **Your crew's crates, together** | Everyone adds their music, everyone sees it, sorted into the genres your crew actually plays. |
+| 🔒 **Nobody in the middle** | Songs go straight from one computer to another. They never touch a server, a cloud or us. |
+| 🎛️ **Ready for the decks** | Every WAV is checked for Pioneer CDJs, and a bad one is fixed in one click, before the gig finds out for you. |
 
-- **Genres and sub-genres.** Your admin sets up the genres your crew plays, and they can nest: Techno › Dark Techno › Industrial. Each genre gets its own colour.
-- **Add music in one move.** Drop files on a genre, paste songs you copied in File Explorer or Finder (Ctrl+V / ⌘V), or use *Add music*. Everyone sees them in the right place.
-- **Your files stay where they are.** Nadirect shares your music from where it already is, without copying or moving it. Downloads go into plain genre folders you can point Rekordbox, Serato or Traktor at.
+## ✨ New: send a song to one person
 
-### Ready for the decks
+Not everything is for the whole group. Now a track can go to **one friend only**:
 
-- **Every WAV is checked for Pioneer CDJs** as you add it. Nadirect catches what makes a CDJ refuse a file: 32-bit float audio, the "extensible" header behind error **E-8305**, sample rates CDJs can't play, surround.
-- **One click to fix.** Nadirect adds a CDJ-ready copy under the same name and leaves your original untouched. A header problem is fixed without touching the audio. Anything else is converted to 16 or 24-bit, 44.1 or 48 kHz stereo.
-- **Nobody finds out at the gig.** A song added without the fix shows a ⚠ for everyone, with the reason. Right-click any song to see whether it plays on every CDJ, or only the CDJ-3000 and NXS2.
+- **Send to…** Right-click any songs, pick a friend, done. Send one or fifty: they arrive as one neat box, with **Download all**.
+- **Hear it first.** Your friend can press play and listen before downloading, straight from your computer.
+- **Covers and all.** It lands in their library with the artwork, ready to play.
+- **Ask for it.** Spot a track in a friend's crate? Ask, and they send it with one click.
 
-### You choose what lands on your disk
+## A chat that feels alive
 
-- **New music** collects what friends added. Download what you want, skip the rest, or set a genre to download by itself.
-- **Play before you download.** Preview any song straight from whoever has it.
-- **Always available.** A song comes from anyone online who has it, not only the person who added it, and big files come in from several friends at once.
+- **See who's online**, watch the little waveform while they're **typing**, and know they've **seen** it with two ticks.
+- Share songs your friends can play right there, plus photos, videos, replies and reactions.
+- A small chat window follows you around the app, so you never miss a request.
 
-### Chat with your crew
+## Built for the booth
 
-- **Chat with the whole group or privately with one friend.** Private chats can only be read by the two of you.
-- **Share songs** people can play or download right from the chat, plus **photos and videos**, replies, reactions and notifications.
-- **Chat from any page.** A small chat window stays open while you browse.
+- **CDJ check on everything.** Nadirect catches what makes a CDJ refuse a file: 32-bit float audio, the header behind error **E-8305**, sample rates CDJs can't play, surround.
+- **One-click fix.** A CDJ-ready copy with the same name, your original untouched.
+- **Everything at a glance.** Right-click any song for format, bitrate, size, length and whether it plays on every CDJ.
+- **Look it up.** Straight to YouTube, SoundCloud, Beatport, Spotify or Apple Music.
+- **Works with your software.** Downloads go into plain genre folders you can point Rekordbox, Serato or Traktor at.
 
-### Know who has what
+## Show off your taste
 
-- **Downloads** shows what's coming in, your full download history, and who downloaded the songs you added.
-- **Most downloaded:** the crew's top 10 on Home.
+- **Your profile:** a banner, your top genres, your socials and the track you're featuring.
+- **Your crate:** share your library's list with friends (never the files) and let them ask for what they like.
+- **Your numbers:** songs, hours, formats, top artists and how much is CDJ-ready.
 
-### Easy on your connection
+## Your library, your rules
 
-You set how much upload to share (2 MB/s by default) and how many friends can download from you at once. You can pause sharing any time, or share only during certain hours.
+- **Download only what you want.** New music shows up in one place: take it, skip it, or let a genre download by itself.
+- **Always there.** A song comes from anyone online who has it, and big files come from several friends at once.
+- **Easy on your connection.** You choose how much upload to share, and can pause any time.
+- **Your files stay put.** Nadirect shares your music from where it already is. Nothing is copied or moved.
 
 ## Private by design
 
-- **Invite only.** A friend needs your invite code *and* an admin's approval to get in.
-- **No cloud.** Music, chat, photos and videos go directly between members' computers, end-to-end encrypted. There's no Nadirect server, no account and no tracking.
-- **Every file is checked.** Each piece of a song is verified against the fingerprint of the original, so a damaged or altered file is refused. Only real audio files are accepted.
-- **Signed updates.** Every release is signed. Nadirect refuses an update that doesn't carry the right signature, and asks you before installing.
+- **Invite only.** Joining a group takes an invite code *and* an admin's approval.
+- **Your music never touches a server.** Songs, group chats, photos and videos go directly between members' computers, encrypted end to end.
+- **Only the two of you.** Private messages are sealed so nobody else can read them, not even Nadirect.
+- **Every file is checked.** Each piece of a song is verified against the original's fingerprint, and only real audio files are accepted.
+- **Signed updates.** Nadirect only installs updates that carry our signature, and asks you first.
 
-## Install
+## Get started in a minute
 
-Get the latest version from **[Releases](https://github.com/itay5731/Nadirect-releases/releases/latest)**.
+1. **[Download the latest version](https://github.com/itay5731/Nadirect-releases/releases/latest).**
+2. **Windows:** run `Nadirect-Setup-x.y.z.exe`. When Windows asks about the network, choose **Allow**.<br>
+   **macOS** (Apple Silicon and Intel): open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. The first time, right-click it in Applications and choose **Open**, then **Open** again. If macOS says the app is damaged, run `xattr -cr /Applications/Nadirect.app` in Terminal. When it asks about incoming connections, choose **Allow**.
+3. **Create a group** for your crew, or paste an invite code a friend sent you.
 
-**Windows:** download `Nadirect-Setup-x.y.z.exe` and run it. When Windows asks whether Nadirect can use the network, choose **Allow**.
-
-**macOS** (Apple Silicon and Intel): download `Nadirect-x.y.z-mac.dmg`, open it and drag Nadirect into Applications. The app isn't signed with an Apple developer account yet, so the first time:
-
-1. Right-click Nadirect in Applications and choose **Open**, then **Open** again.
-2. If macOS says the app is damaged, run this in Terminal:
-   ```
-   xattr -cr /Applications/Nadirect.app
-   ```
-
-When macOS asks about incoming connections, choose **Allow**.
-
-**Joining a group:** open Nadirect, paste the invite code your admin sent you, and wait for them to approve you.
-
-## Updates
-
-Nadirect checks this page for new versions and downloads them in the background. It checks the signature, then shows what's new, with **Restart and update** or **Later**. *Later* installs the update the next time you close Nadirect. If you skipped a few versions, you see what's new in each one. On a Mac, Nadirect opens the new version for you to drag into Applications.
-
-You can read every version's notes any time in **Settings → Updates → What's new**.
+Updates arrive by themselves: Nadirect shows what's new and installs when you say so. Every version's notes are in **Settings → Updates → What's new**.
 
 ## Share fairly
 
@@ -92,4 +86,5 @@ Only share music you have the right to share: music you made, music whose licenc
 
 ---
 
-<p align="center"><sub>Nadirect: Beat to Beat. Peer to Peer.</sub></p>
+<p align="center"><strong>Nadirect</strong> · Beat to Beat. Peer to Peer.<br>
+<a href="https://github.com/itay5731/Nadirect-releases/releases/latest">Download now</a></p>
