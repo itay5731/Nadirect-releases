@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'The version tag in the code repository, e.g. v0.4.5'
+        description: 'Version, e.g. v0.4.5'
         required: true
 
 permissions:
