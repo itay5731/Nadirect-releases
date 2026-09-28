@@ -18,7 +18,7 @@
 
 <h3 align="center">One music library for your whole crew.<br>Straight from computer to computer: your music never touches a server.</h3>
 
-<p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a></p>
+<p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a> · <a href="https://nadirect.co"><strong>nadirect.co</strong></a></p>
 
 <p align="center">
   <img src="assets/hero.svg" alt="Two decks: a song flies from one to the other" width="100%">
@@ -52,8 +52,9 @@ Joining a group needs an invite code and the admin's approval. Songs, group chat
 
 1. Download the latest version from [Releases](https://github.com/itay5731/Nadirect-releases/releases/latest).
 2. On Windows, run `Nadirect-Setup-x.y.z.exe`. If Windows asks about network access, choose Allow.
-3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked. If macOS won't open it the first time, see the FAQ below.
-4. Create a group, or paste the invite code a friend sent you.
+3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked.
+4. The first time you open Nadirect, Windows or macOS asks you to confirm (see the FAQ below).
+5. Create a group, or paste the invite code a friend sent you.
 
 Nadirect updates itself: it tells you what's new and installs when you say so.
 
@@ -110,13 +111,14 @@ Nadirect checks every file piece by piece against the original, lets through onl
 </details>
 
 <details>
-<summary>macOS won't open Nadirect</summary>
+<summary>Opening Nadirect for the first time</summary>
 <br>
-Nadirect isn't signed with an Apple developer account yet, so macOS stops it the first time.
 
-If macOS says it can't check the app for malware, click Done, then open System Settings › Privacy & Security, scroll down and click Open Anyway. Confirm with your password.
+Nadirect just isn't signed yet, so Windows and macOS ask you to confirm the first time you open it. After that it opens like any other app.
 
-If it says the app is damaged, run this in Terminal and open it again:
+**Windows:** if you see "Windows protected your PC", click More info, then Run anyway.
+
+**macOS:** if macOS says it can't check the app for malware, click Done, then open System Settings › Privacy & Security, scroll down and click Open Anyway. Confirm with your password. If it says the app is damaged, run this in Terminal and open it again:
 
 ```
 xattr -cr /Applications/Nadirect.app
