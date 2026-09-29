@@ -109,7 +109,7 @@ Not to WAV, AIFF or FLAC: the sound is kept exactly as it is, and the file just 
 <details>
 <summary>Does Tidy names change my files?</summary>
 <br>
-Only the title and artist inside them. The sound, the cover, the file name and Serato's cue points and beat grids stay exactly as they were, and Undo puts the old names back.
+Only the title and artist inside them. The sound, the cover, the file name and your cue points and beat grids stay exactly as they were, and Undo puts the old names back.
 </details>
 
 <details>
