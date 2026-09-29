@@ -42,7 +42,7 @@ A chat for the group and for each of you. You can see who's online, when someone
 
 A profile with your crate. Show the list of songs in your library (the files stay with you), your top genres, your socials and a few numbers about your collection.
 
-DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder, with your folders. A sync sends only what changed, and it can keep itself in sync. Your own library in the app is never touched: not a name, not a cue point. A short guide with pictures sets each app up.
+DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder, with your folders. A sync sends only what changed, and it can keep itself in sync. Your own library in the app is never touched: not a name, not a cue point. A short guide with pictures sets each app up. In Rekordbox, songs you renamed wait in a Renamed playlist until you choose Reload Tag.
 
 A downloader. Paste a link to a song or a whole playlist, and it lands in My Library in the format you pick, with its cover and artist. For your own use: only download music you have the right to.
 
@@ -50,11 +50,15 @@ A converter. Turn songs into WAV, AIFF, FLAC or MP3 in one go, covers and detail
 
 Tidy names. Clean names for the whole library: no "Official Video", no track numbers, no shouting. The new names go into the files, and your cue points stay.
 
+Your account. Sign in once with Google or a code sent to your email. A 6-digit PIN locks a backup of your Nadirect keys, so on a new computer you sign in, type your PIN, and your name, groups and friends come back. Nobody can open the backup without your PIN, not even Nadirect.
+
+Two computers, one library. Sign in on your second computer and My Library is the same on both, sealed between your computers so the server can't read it. A song whose file is on the other computer shows greyed, and Get brings it straight from there. Your groups stay on the first computer you signed in on.
+
 Folders you already use. Nadirect shares your music from where it already is, and downloads go into plain folders your DJ software can see like any other.
 
 ## Privacy
 
-Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. Nadirect has a small server for friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
+Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. Nadirect has a small server for your account (your email), friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Your key backup is locked with your PIN, and the My Library list shared between your own computers is sealed with a key only they have. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
 
 ## Install
 
@@ -62,7 +66,8 @@ Joining a group needs an invite code and the admin's approval. Songs, group chat
 2. On Windows, run `Nadirect-Setup-x.y.z.exe`. If Windows asks about network access, choose Allow.
 3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked.
 4. The first time you open Nadirect, Windows or macOS asks you to confirm (see the FAQ below).
-5. Create a group, or paste the invite code a friend sent you.
+5. Sign in with Google or a code sent to your email, and choose a 6-digit PIN.
+6. Create a group, or paste the invite code a friend sent you.
 
 Nadirect updates itself: it tells you what's new and installs when you say so.
 
@@ -79,7 +84,13 @@ Nadirect for iPhone and Android is on its way.
 <details>
 <summary>Do my songs go through a server?</summary>
 <br>
-No. They go from one member's computer to another's. The server only handles friend requests, crate lists and messages waiting for someone who's offline.
+No. They go from one member's computer to another's. The server only handles your account, friend requests, crate lists and messages waiting for someone who's offline.
+</details>
+
+<details>
+<summary>Can Nadirect see my music or messages?</summary>
+<br>
+No. Songs, group chats, photos and videos go straight between computers, encrypted. A message waiting for someone offline is sealed so only the two of you can read it. Your account is just your email, and the My Library list shared between your own computers is sealed with a key only they have.
 </details>
 
 <details>
@@ -91,7 +102,7 @@ In a group, you get it from anyone online who has it. A song someone sent only t
 <details>
 <summary>Does it work with Rekordbox, Serato or Traktor?</summary>
 <br>
-Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or Traktor Pro 3 and 4 as a Nadirect folder with your folders, and a sync sends only what changed. Your own library in the app is never touched, and a short guide sets each one up.
+Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or Traktor Pro 3 and 4 as a Nadirect folder with your folders, and a sync sends only what changed. Your own library in the app is never touched, and a short guide sets each one up. In Rekordbox, songs you renamed wait in a Renamed playlist: select them all there and choose Reload Tag.
 </details>
 
 <details>
@@ -116,6 +127,24 @@ Only the title and artist inside them. The sound, the cover, the file name and y
 <summary>Which formats work?</summary>
 <br>
 MP3, WAV, AIFF, FLAC, M4A (AAC and ALAC), OGG and Opus.
+</details>
+
+<details>
+<summary>Do I need an account?</summary>
+<br>
+Yes, one sign-in with Google or a code sent to your email. The account is your email, nothing more. If you already use Nadirect, your groups, friends, chat and My Library join it.
+</details>
+
+<details>
+<summary>What if I get a new computer?</summary>
+<br>
+Sign in there and type your 6-digit PIN. It unlocks a backup of your Nadirect keys, so your name, groups and friends come back. Nobody can open that backup without your PIN, not even Nadirect.
+</details>
+
+<details>
+<summary>Can I use Nadirect on two computers?</summary>
+<br>
+Yes. Sign in on both and My Library is the same on each. A song whose file is on the other computer shows greyed, and Get brings it straight from there. Your groups stay on the first computer you signed in on, and one computer at a time is in your chat.
 </details>
 
 <details>
