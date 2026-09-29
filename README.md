@@ -42,7 +42,15 @@ A chat for the group and for each of you. You can see who's online, when someone
 
 A profile with your crate. Show the list of songs in your library (the files stay with you), your top genres, your socials and a few numbers about your collection.
 
-Folders you already use. Downloads go into plain genre folders, so Rekordbox, Serato and Traktor see them like any other folder. Nadirect shares your music from where it already is.
+DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder, with your folders. A sync sends only what changed, and it can keep itself in sync. Your own library in the app is never touched: not a name, not a cue point. A short guide with pictures sets each app up.
+
+A downloader. Paste a link to a song or a whole playlist, and it lands in My Library in the format you pick, with its cover and artist. For your own use: only download music you have the right to.
+
+A converter. Turn songs into WAV, AIFF, FLAC or MP3 in one go, covers and details included. The copies go to their own folder, and every WAV plays on CDJs.
+
+Tidy names. Clean names for the whole library: no "Official Video", no track numbers, no shouting. The new names go into the files, and your cue points stay.
+
+Folders you already use. Nadirect shares your music from where it already is, and downloads go into plain folders your DJ software can see like any other.
 
 ## Privacy
 
@@ -83,7 +91,25 @@ In a group, you get it from anyone online who has it. A song someone sent only t
 <details>
 <summary>Does it work with Rekordbox, Serato or Traktor?</summary>
 <br>
-Yes. Downloads are ordinary files in genre folders, so point your DJ software at them.
+Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or Traktor Pro 3 and 4 as a Nadirect folder with your folders, and a sync sends only what changed. Your own library in the app is never touched, and a short guide sets each one up.
+</details>
+
+<details>
+<summary>Can I download from a link?</summary>
+<br>
+Yes. Paste a link from YouTube, SoundCloud, Bandcamp or Mixcloud, a song or a whole playlist, and it lands in My Library as WAV (or AIFF, FLAC or MP3), with its cover and artist. It's for your own use: only download music you have the right to.
+</details>
+
+<details>
+<summary>Does converting lose quality?</summary>
+<br>
+Not to WAV, AIFF or FLAC: the sound is kept exactly as it is, and the file just takes more room. MP3 is saved at 320 kbps, the most an MP3 holds. Your originals are never changed.
+</details>
+
+<details>
+<summary>Does Tidy names change my files?</summary>
+<br>
+Only the title and artist inside them. The sound, the cover, the file name and Serato's cue points and beat grids stay exactly as they were, and Undo puts the old names back.
 </details>
 
 <details>
