@@ -28,12 +28,6 @@ Nadirect is for DJ crews who swap tracks all the time. Instead of links in a gro
 
 ## What you get
 
-<p align="center">
-  <img src="assets/screens/new-djsync.png" alt="DJ Sync: My Library in Rekordbox, Serato and Traktor" width="32%">
-  <img src="assets/screens/new-tools.png" alt="Downloader, Converter and Tidy names" width="32%">
-  <img src="assets/screens/new-accounts.png" alt="One account, two computers" width="32%">
-</p>
-
 A library for your group. Everyone adds music into genres your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a genre download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
 
 Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
@@ -46,15 +40,27 @@ A profile with your crate. Show the list of songs in your library (the files sta
 
 DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder, with your folders. A sync sends only what changed, and it can keep itself in sync. Your own library in the app is never touched: not a name, not a cue point. A short guide with pictures sets each app up. In Rekordbox, songs you renamed wait in a Renamed playlist until you choose Reload Tag.
 
+<p align="center">
+  <img src="assets/screens/new-djsync.png" alt="DJ Sync: My Library in Rekordbox, Serato and Traktor" width="100%">
+</p>
+
 A downloader. Paste a link to a song or a whole playlist, and it lands in My Library in the format you pick, with its cover and artist. For your own use: only download music you have the right to.
 
 A converter. Turn songs into WAV, AIFF, FLAC or MP3 in one go, covers and details included. The copies go to their own folder, and every WAV plays on CDJs.
 
 Tidy names. Clean names for the whole library: no "Official Video", no track numbers, no shouting. The new names go into the files, and your cue points stay.
 
+<p align="center">
+  <img src="assets/screens/new-tools.png" alt="Downloader, Converter and Tidy names" width="100%">
+</p>
+
 Your account. Sign in once with Google or a code sent to your email. A 6-digit PIN locks a backup of your Nadirect keys, so on a new computer you sign in, type your PIN, and your name, groups and friends come back. Nobody can open the backup without your PIN, not even Nadirect.
 
 Two computers, one library. Sign in on your second computer and My Library is the same on both, sealed between your computers so the server can't read it. A song whose file is on the other computer shows greyed, and Get brings it straight from there. Your groups stay on the first computer you signed in on.
+
+<p align="center">
+  <img src="assets/screens/new-accounts.png" alt="One account, two computers" width="100%">
+</p>
 
 Folders you already use. Nadirect shares your music from where it already is, and downloads go into plain folders your DJ software can see like any other.
 
