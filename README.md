@@ -195,3 +195,5 @@ Only share music you're allowed to share: your own, music whose licence allows i
 ## License
 
 Nadirect is free to download and use, but it isn't open source. © 2026 Itay Nadir, all rights reserved. See [LICENSE](LICENSE).
+
+<sub>Pioneer DJ, CDJ and rekordbox are trademarks of AlphaTheta Corporation. Serato is a trademark of Serato Limited. Traktor is a trademark of Native Instruments. Nadirect isn't affiliated with or endorsed by them; the names only say what Nadirect works with.</sub>
