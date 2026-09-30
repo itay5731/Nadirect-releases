@@ -20,10 +20,6 @@
 
 <p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a> · <a href="https://nadirect.co"><strong>nadirect.co</strong></a></p>
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Two decks: a song flies from one to the other" width="100%">
-</p>
-
 Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted by the genres you play. Songs go from computer to computer and never pass through a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
 
 <p align="center">
@@ -31,6 +27,12 @@ Nadirect is for DJ crews who swap tracks all the time. Instead of links in a gro
 </p>
 
 ## What you get
+
+<p align="center">
+  <img src="assets/screens/new-djsync.png" alt="DJ Sync: My Library in Rekordbox, Serato and Traktor" width="32%">
+  <img src="assets/screens/new-tools.png" alt="Downloader, Converter and Tidy names" width="32%">
+  <img src="assets/screens/new-accounts.png" alt="One account, two computers" width="32%">
+</p>
 
 A library for your group. Everyone adds music into genres your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a genre download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
 
