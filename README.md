@@ -16,11 +16,11 @@
   <img src="https://img.shields.io/badge/built%20for%20DJs-1a1240?style=for-the-badge" alt="Built for DJs">
 </p>
 
-<h3 align="center">One music library for your whole crew.<br>Straight from computer to computer: your music never touches a server.</h3>
+<h3 align="center">One music library for your whole crew.<br>Straight from computer to computer: your music is never kept on a server.</h3>
 
 <p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a> · <a href="https://nadirect.co"><strong>nadirect.co</strong></a></p>
 
-Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted by the genres you play. Songs go from computer to computer and never pass through a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
+Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted by the genres you play. Songs go from computer to computer, encrypted end to end, and are never kept on a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
 
 <p align="center">
   <img src="assets/screens/desktop.png" alt="Nadirect on the desktop: Home, the Library, Chat, My Library and a profile" width="100%">
@@ -66,7 +66,7 @@ Folders you already use. Nadirect shares your music from where it already is, an
 
 ## Privacy
 
-Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. Nadirect has a small server for your account (your email), friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Your key backup is locked with your PIN, and the My Library list shared between your own computers is sealed with a key only they have. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
+Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. When two computers can't reach each other directly (two phone hotspots, for example), the connection passes through Nadirect's server, still encrypted end to end: the server can't read it and keeps nothing. Nadirect has a small server for your account (your email), friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Your key backup is locked with your PIN, and the My Library list shared between your own computers is sealed with a key only they have. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
 
 ## Install
 
