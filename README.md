@@ -116,7 +116,7 @@ Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or
 <details>
 <summary>Can I download from a link?</summary>
 <br>
-Yes. Paste a link from YouTube, SoundCloud, Bandcamp or Mixcloud, a song or a whole playlist, and it lands in My Library as WAV (or AIFF, FLAC or MP3), with its cover and artist. It's for your own use: only download music you have the right to.
+Yes. Paste a link to a song or a whole playlist, and it lands in My Library as WAV (or AIFF, FLAC or MP3), with its cover and artist. Only download music you have the right to, like your own tracks or free downloads an artist gives out.
 </details>
 
 <details>
