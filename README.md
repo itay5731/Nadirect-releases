@@ -44,7 +44,9 @@ DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder,
   <img src="assets/screens/new-djsync.png" alt="DJ Sync: My Library in Rekordbox, Serato and Traktor" width="100%">
 </p>
 
-A downloader. Paste a link to a song or a whole playlist, and it lands in My Library in the format you pick, with its cover and artist. For your own use: only download music you have the right to.
+A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp, Spotify or Apple Music, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
+
+Hebrew names that were stored backwards for CDJs read the right way in Nadirect, and a mark tells you how a name will show on the CDJ.
 
 A converter. Turn songs into WAV, AIFF, FLAC or MP3 in one go, covers and details included. The copies go to their own folder, and every WAV plays on CDJs.
 
