@@ -10,7 +10,7 @@
 <p align="center"><strong>Beat to Beat. Peer to Peer.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><img src="https://img.shields.io/github/v/release/itay5731/Nadirect-releases?label=latest&color=8b5cf6&style=for-the-badge" alt="Latest version"></a>
+  <a href="https://nadirect.co"><img src="https://img.shields.io/github/v/release/itay5731/Nadirect-releases?label=latest&color=8b5cf6&style=for-the-badge" alt="Latest version"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20macOS-22d3ee?style=for-the-badge" alt="Windows and macOS">
   <img src="https://img.shields.io/badge/peer%20to%20peer-f43f8e?style=for-the-badge" alt="Peer to peer">
   <img src="https://img.shields.io/badge/built%20for%20DJs-1a1240?style=for-the-badge" alt="Built for DJs">
@@ -18,7 +18,7 @@
 
 <h3 align="center">One music library for your whole crew.<br>Straight from computer to computer: your music is never kept on a server.</h3>
 
-<p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a> · <a href="https://nadirect.co"><strong>nadirect.co</strong></a></p>
+<p align="center"><a href="https://nadirect.co"><strong>Download at nadirect.co</strong></a></p>
 
 Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted into folders by the genres you play. Songs go from computer to computer, encrypted end to end, and are never kept on a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
 
@@ -78,7 +78,7 @@ Joining a group needs an invite code and the admin's approval. Songs, group chat
 
 ## Install
 
-1. Download the latest version from [Releases](https://github.com/itay5731/Nadirect-releases/releases/latest).
+1. Download the latest version at [nadirect.co](https://nadirect.co).
 2. On Windows, run `Nadirect-Setup-x.y.z.exe`. If Windows asks about network access, choose Allow.
 3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked.
 4. The first time you open Nadirect, Windows or macOS asks you to confirm (see the FAQ below).
