@@ -32,7 +32,11 @@ A library for your group. Everyone adds music into folders your admin sets up (t
 
 Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
 
-Listen together. Press Listen together and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause or skip, and there's one queue everyone can add to and reorder.
+Listen together. Press Listen together on the play bar and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause, skip or jump ahead, and everyone follows. There's one queue for everyone: add songs, drag them into a new order, or drag them straight in from the library. Leave whenever you like, and your own queue comes back where you stopped.
+
+<p align="center">
+  <img src="assets/screens/new-listen.png" alt="Listen together: two computers playing the same song at the same second" width="100%">
+</p>
 
 Sending to one person. Right-click a song (or fifty), choose Send to, and only that person gets them. They can listen before downloading, and the covers come along.
 
@@ -121,6 +125,12 @@ Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or
 <summary>Can I download from a link?</summary>
 <br>
 Yes. Paste a link to a song or a whole playlist, and it lands in My Library as MP3 (or WAV, AIFF or FLAC), with its cover and artist. Only download music you have the right to, like your own tracks or free downloads an artist gives out.
+</details>
+
+<details>
+<summary>How does Listen together stay in sync?</summary>
+<br>
+Each computer plays its own copy of the song, so no sound goes over the internet. They agree on an exact moment to start, then keep checking each other: if one is a little ahead or behind, it plays a touch faster or slower, too little to hear, until they line up. A song someone doesn't have yet comes from the group first.
 </details>
 
 <details>
