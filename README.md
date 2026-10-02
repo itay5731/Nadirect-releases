@@ -20,7 +20,7 @@
 
 <p align="center"><a href="https://github.com/itay5731/Nadirect-releases/releases/latest"><strong>Download for Windows and macOS</strong></a> · <a href="https://nadirect.co"><strong>nadirect.co</strong></a></p>
 
-Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted by the genres you play. Songs go from computer to computer, encrypted end to end, and are never kept on a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
+Nadirect is for DJ crews who swap tracks all the time. Instead of links in a group chat and folders nobody keeps tidy, everyone adds their music to one library, sorted into folders by the genres you play. Songs go from computer to computer, encrypted end to end, and are never kept on a server. And a WAV that won't load on the CDJs gets caught before the gig, not during it.
 
 <p align="center">
   <img src="assets/screens/desktop.png" alt="Nadirect on the desktop: Home, the Library, Chat, My Library and a profile" width="100%">
@@ -28,9 +28,11 @@ Nadirect is for DJ crews who swap tracks all the time. Instead of links in a gro
 
 ## What you get
 
-A library for your group. Everyone adds music into genres your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a genre download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
+A library for your group. Everyone adds music into folders your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a folder download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
 
 Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
+
+Listen together. Press Listen together and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause or skip, and there's one queue everyone can add to and reorder.
 
 Sending to one person. Right-click a song (or fifty), choose Send to, and only that person gets them. They can listen before downloading, and the covers come along.
 
@@ -118,7 +120,7 @@ Yes. DJ Sync sends My Library into Rekordbox 6 and 7, Serato DJ Pro and Lite, or
 <details>
 <summary>Can I download from a link?</summary>
 <br>
-Yes. Paste a link to a song or a whole playlist, and it lands in My Library as WAV (or AIFF, FLAC or MP3), with its cover and artist. Only download music you have the right to, like your own tracks or free downloads an artist gives out.
+Yes. Paste a link to a song or a whole playlist, and it lands in My Library as MP3 (or WAV, AIFF or FLAC), with its cover and artist. Only download music you have the right to, like your own tracks or free downloads an artist gives out.
 </details>
 
 <details>
@@ -160,7 +162,7 @@ Yes. Sign in on both and My Library is the same on each. A song whose file is on
 <details>
 <summary>Will it slow my internet down?</summary>
 <br>
-You decide how much upload to share (2 MB/s to start), how many people can download from you at once, and when. You can pause sharing any time.
+You decide how much upload to share (4 MB/s to start), how many people can download from you at once, and when. You can pause sharing any time.
 </details>
 
 <details>
