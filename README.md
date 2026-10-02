@@ -32,12 +32,6 @@ A library for your group. Everyone adds music into folders your admin sets up (t
 
 Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
 
-Listen together. Press Listen together on the play bar and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause, skip or jump ahead, and everyone follows. There's one queue for everyone: add songs, drag them into a new order, or drag them straight in from the library. Leave whenever you like, and your own queue comes back where you stopped.
-
-<p align="center">
-  <img src="assets/screens/new-listen.png" alt="Listen together: two computers playing the same song at the same second" width="100%">
-</p>
-
 Sending to one person. Right-click a song (or fifty), choose Send to, and only that person gets them. They can listen before downloading, and the covers come along.
 
 A chat for the group and for each of you. You can see who's online, when someone's typing and when they've read your message. Share songs, photos and videos. If a friend spots something in your crate, they can ask for it right there.
@@ -49,6 +43,8 @@ DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder,
 <p align="center">
   <img src="assets/screens/new-djsync.png" alt="DJ Sync: My Library in Rekordbox, Serato and Traktor" width="100%">
 </p>
+
+Listen together. Press Listen together on the play bar and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause, skip or jump ahead, and everyone follows. There's one queue for everyone: add songs, drag them into a new order, or drag them straight in from the library. Leave whenever you like, and your own queue comes back where you stopped.
 
 A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp, Spotify or Apple Music, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
 
