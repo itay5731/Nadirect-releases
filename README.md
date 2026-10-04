@@ -70,7 +70,7 @@ Two computers, one library. Sign in on your second computer and My Library is th
   <img src="assets/screens/new-accounts.png" alt="One account, two computers" width="100%">
 </p>
 
-Folders you already use. Nadirect shares your music from where it already is, and downloads go into plain folders your DJ software can see like any other.
+Folders you already use. Nadirect shares your music from where it already is, and downloads go into plain folders in the music folder you choose (on any drive), where your DJ software sees them like any other.
 
 ## Privacy
 
@@ -130,7 +130,7 @@ Yes. Paste a link to a song or a whole playlist, and it lands in My Library as M
 <details>
 <summary>How does Listen together stay in sync?</summary>
 <br>
-Each computer plays its own copy of the song, so no sound goes over the internet. They agree on an exact moment to start, then keep checking each other: if one is a little ahead or behind, it plays a touch faster or slower, too little to hear, until they line up. A song someone doesn't have yet comes from the group first.
+Each computer plays its own copy of the song, so no sound goes over the internet. They agree on an exact moment to start, then keep checking each other: if one is a little ahead or behind, it plays a touch faster or slower, too little to hear, until they line up. Each computer also plays a little ahead by the delay it reports for its speakers or headphones, so everyone hears the beat at the same time. A song someone doesn't have yet comes from the group first.
 </details>
 
 <details>
