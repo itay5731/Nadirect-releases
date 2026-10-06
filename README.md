@@ -152,6 +152,12 @@ MP3, WAV, AIFF, FLAC, M4A (AAC and ALAC), OGG and Opus.
 </details>
 
 <details>
+<summary>I asked to join a group and nothing happens. What now?</summary>
+<br>
+Keep Nadirect open: your request reaches the admin as soon as you meet any member online, and you're in the moment they approve it. Check that your computer's clock is set automatically (Windows: Settings › Time & language › Date & time; Mac: System Settings › General › Date & Time). Nadirect tells you when it's off.
+</details>
+
+<details>
 <summary>Do I need an account?</summary>
 <br>
 Yes, one sign-in with Google or a code sent to your email. The account is your email, nothing more. If you already use Nadirect, your groups, friends, chat and My Library join it.
