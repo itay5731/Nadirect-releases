@@ -130,7 +130,7 @@ Yes. Paste a link to a song or a whole playlist, and it lands in My Library as M
 <details>
 <summary>How does Listen together stay in sync?</summary>
 <br>
-Each computer plays its own copy of the song, so no sound goes over the internet. They agree on an exact moment to start, then keep checking each other: if one is a little ahead or behind, it plays a touch faster or slower, too little to hear, until they line up. Each computer also plays a little ahead by the delay it reports for its speakers or headphones, so everyone hears the beat at the same time. A song someone doesn't have yet comes from the group first.
+Each computer plays the song itself: its own copy, or streamed straight from whoever in the group has it, without saving it to your disk. They agree on an exact moment to start, then keep checking each other: if one is a little ahead or behind, it plays a touch faster or slower, too little to hear, until they line up. Each computer also plays a little ahead by the delay it reports for its speakers or headphones, so everyone hears the beat at the same time.
 </details>
 
 <details>
