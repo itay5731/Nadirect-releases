@@ -50,7 +50,9 @@ Listen together. Press Listen together on the play bar and your crew hears the s
   <img src="assets/screens/new-listen-light.png" alt="Listen together: two computers playing the same song at the same second" width="100%">
 </p>
 
-A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp, Spotify or Apple Music, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
+A mini player. A small window with the song that stays on top of everything else: the cover, where it plays from and who's listening with you. Point at it for the buttons (play, skip, shuffle, repeat, volume, save, share and Listen together) and scroll anywhere on it to change the volume. It opens by itself when you minimize Nadirect while a song is on, or with Ctrl+Shift+M (⇧⌘M on a Mac).
+
+A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp and other sites, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
 
 Hebrew names that were stored backwards for CDJs read the right way in Nadirect, and a mark tells you how a name will show on the CDJ.
 
@@ -74,7 +76,7 @@ Folders you already use. Nadirect shares your music from where it already is, an
 
 ## Privacy
 
-Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. When two computers can't reach each other directly (two phone hotspots, for example), the connection passes through Nadirect's server, still encrypted end to end: the server can't read it and keeps nothing. Nadirect has a small server for your account (your email), friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Your key backup is locked with your PIN, and the My Library list shared between your own computers is sealed with a key only they have. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them.
+Joining a group needs an invite code and the admin's approval. Songs, group chats, photos and videos go directly between members' computers, encrypted. When two computers can't reach each other directly (two phone hotspots, for example), the connection passes through Nadirect's server, still encrypted end to end: the server can't read it and keeps nothing. Nadirect has a small server for your account (your email), friend requests, crate lists and messages waiting for a friend who's offline. Those messages are sealed so only the two of you can read them. Your key backup is locked with your PIN, and the My Library list shared between your own computers is sealed with a key only they have. Every song is checked piece by piece against the original, and only real audio files get through. Updates are signed, and Nadirect asks before installing them. In Settings you can turn off usage counts, save a copy of your data or delete your account. Nadirect is for people 13 and up.
 
 ## Install
 
