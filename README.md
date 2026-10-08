@@ -46,11 +46,13 @@ DJ Sync. My Library goes into Rekordbox, Serato or Traktor as a Nadirect folder,
 
 Listen together. Press Listen together on the play bar and your crew hears the same song at the same moment, each on their own computer. Anyone in it can play, pause, skip or jump ahead, and everyone follows. There's one queue for everyone: add songs, drag them into a new order, or drag them straight in from the library. Leave whenever you like, and your own queue comes back where you stopped.
 
+The queue. Right-click a song, a selection or a whole folder: Play next puts them right after the song that's playing, Add to queue puts them at the end.
+
 <p align="center">
   <img src="assets/screens/new-listen-light.png" alt="Listen together: two computers playing the same song at the same second" width="100%">
 </p>
 
-A mini player. A small window with the song that stays on top of everything else: the cover, where it plays from and who's listening with you. Point at it for the buttons (play, skip, shuffle, repeat, volume, save, share and Listen together) and scroll anywhere on it to change the volume. It opens by itself when you minimize Nadirect while a song is on, or with Ctrl+Shift+M (⇧⌘M on a Mac).
+A mini player. A small window with the song that stays on top of everything else, in three sizes: a slim strip, a small cover beside the song, or the big cover. It shows where the song plays from and who's listening with you. Point at it for the buttons (play, skip, shuffle, repeat, volume, save, share and Listen together), drag it by the cover, and scroll anywhere on it to change the volume. It opens by itself when you minimize Nadirect while a song is on, or with Ctrl+Shift+M (⇧⌘M on a Mac).
 
 A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp and other sites, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
 
