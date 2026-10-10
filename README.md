@@ -28,7 +28,13 @@ Nadirect is for DJ crews who swap tracks all the time. Instead of links in a gro
 
 ## What you get
 
-A library for your group. Everyone adds music into folders your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a folder download by itself. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
+A Library check for your music. Before the gig, not during it: Nadirect looks through your folders for anything that won't play on CDJs (every format), duplicates, messy names, missing covers and low or fake quality, and fixes each with one button. Nothing changes until you say so. Check all of My Library, one folder, a few songs, or any folder on your computer. It's the first thing Nadirect offers when you open it, before any group.
+
+A library for your group. Everyone adds music into folders your admin sets up (they can nest, like Techno › Dark Techno). You see what's new and download what you want, or let a folder download by itself. Whoever added a song can fix its details, and admins can fix any. A song comes from whoever's online and has it, so it's usually there even when the person who added it isn't.
+
+Albums and folders that make sense. Albums with their covers, newest first, on top of every folder; edit an album's name, artist, year and cover in one go. One song can sit in several folders and is still counted once, and removing it from a folder asks whether you mean just that folder. Make folders from the genres in your tags with a tick each.
+
+Your Rekordbox playlists, folders and all. From Rekordbox brings your playlists into My Library inside the same folders they have in Rekordbox, without changing anything in Rekordbox. Playlists you already brought in show as ticked, the ones that changed say what's new, and adding one again fills the same folder. You can also drag songs straight from Rekordbox, Serato or Traktor, or drop an .m3u8, .nml or .crate playlist file.
 
 Songs checked for CDJs. Nadirect looks inside every WAV for the things Pioneer CDJs refuse: 32-bit float, the header that causes E-8305, odd sample rates. One click makes a copy that plays, and your original stays untouched. Other formats get a straight answer too, so FLAC won't catch you out on an older deck.
 
@@ -87,7 +93,8 @@ Joining a group needs an invite code and the admin's approval. Songs, group chat
 3. On a Mac (Apple Silicon or Intel), open `Nadirect-x.y.z-mac.dmg` and drag Nadirect into Applications. Allow incoming connections when asked.
 4. The first time you open Nadirect, Windows or macOS asks you to confirm (see the FAQ below).
 5. Sign in with Google or a code sent to your email, and choose a 6-digit PIN.
-6. Create a group, or paste the invite code a friend sent you.
+6. Pick your music folders and let the Library check look through them.
+7. Create a group, paste the invite code a friend sent you, or keep it to your own music for now.
 
 Nadirect updates itself: it tells you what's new and installs when you say so.
 
