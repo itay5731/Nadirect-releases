@@ -58,7 +58,7 @@ The queue. Right-click a song, a selection or a whole folder: Play next puts the
   <img src="assets/screens/new-listen-light.png" alt="Listen together: two computers playing the same song at the same second" width="100%">
 </p>
 
-A mini player. A small window with the song that stays on top of everything else, in three sizes: a slim strip, a small cover beside the song, or the big cover. It shows where the song plays from and who's listening with you. Point at it for the buttons (play, skip, shuffle, repeat, volume, save, share and Listen together), drag it by the cover, and scroll anywhere on it to change the volume. It opens by itself when you minimize Nadirect while a song is on, or with Ctrl+Shift+M (⇧⌘M on a Mac).
+A mini player. A small window with the song that stays on top of everything else, in three sizes: a slim strip, a small cover beside the song, or the big cover. It shows where the song plays from and who's listening with you. Point at it for the buttons (play, skip, shuffle, repeat, volume, save, share and Listen together), drag it by the cover or the song's name, and scroll anywhere on it to change the volume (it shows where the volume is). It opens by itself when you minimize Nadirect while a song is on, or with Ctrl+Shift+M (⇧⌘M on a Mac).
 
 A downloader. Paste a link to a song or a whole playlist, from YouTube, SoundCloud, Bandcamp and other sites, and it lands in My Library in the format you pick, with its cover and artist. A song that fails along the way is tried again by itself. For your own use: only download music you have the right to.
 
